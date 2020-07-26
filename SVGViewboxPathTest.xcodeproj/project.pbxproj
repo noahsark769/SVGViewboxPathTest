@@ -12,6 +12,8 @@
 		A167C35F24CCF8D1007C1466 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A167C35E24CCF8D1007C1466 /* Assets.xcassets */; };
 		A167C36224CCF8D1007C1466 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A167C36124CCF8D1007C1466 /* Preview Assets.xcassets */; };
 		A167C36524CCF8D1007C1466 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A167C36324CCF8D1007C1466 /* Main.storyboard */; };
+		A167C36E24CCF915007C1466 /* ViewboxPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = A167C36D24CCF915007C1466 /* ViewboxPath.swift */; };
+		A167C37024CCF926007C1466 /* ViewboxPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A167C36F24CCF926007C1466 /* ViewboxPathView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		A167C36424CCF8D1007C1466 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A167C36624CCF8D1007C1466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A167C36724CCF8D1007C1466 /* SVGViewboxPathTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SVGViewboxPathTest.entitlements; sourceTree = "<group>"; };
+		A167C36D24CCF915007C1466 /* ViewboxPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewboxPath.swift; sourceTree = "<group>"; };
+		A167C36F24CCF926007C1466 /* ViewboxPathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewboxPathView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				A167C36624CCF8D1007C1466 /* Info.plist */,
 				A167C36724CCF8D1007C1466 /* SVGViewboxPathTest.entitlements */,
 				A167C36024CCF8D1007C1466 /* Preview Content */,
+				A167C36D24CCF915007C1466 /* ViewboxPath.swift */,
+				A167C36F24CCF926007C1466 /* ViewboxPathView.swift */,
 			);
 			path = SVGViewboxPathTest;
 			sourceTree = "<group>";
@@ -144,8 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A167C37024CCF926007C1466 /* ViewboxPathView.swift in Sources */,
 				A167C35D24CCF8CF007C1466 /* ContentView.swift in Sources */,
 				A167C35B24CCF8CF007C1466 /* AppDelegate.swift in Sources */,
+				A167C36E24CCF915007C1466 /* ViewboxPath.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
